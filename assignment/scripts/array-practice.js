@@ -11,8 +11,8 @@ console.log('Animals are: ', animalArray);
 //    Be sure to console.log your array of foods to the console with
 //    a message, similar to the example above.
 
-let foodArray = ['tacos','pop-tarts','cinnamon roll','protein shake'];
-console.log('favorite foods:', foodArray);
+let favoriteFoods = ['tacos','pop-tarts','cinnamon roll','protein shake'];
+console.log('favorite foods:', favoriteFoods);
 
 
 // Array.length: A property that tells you how many items are in a given array.
@@ -25,7 +25,7 @@ console.log('Number of animals:', numberOfAnimals);
 // 2. TODO: Create a variable `numberOfFoods` and use the .length property
 //    to assign it the number value of how many items are inside `favoriteFoods`.
 //    Don't forget to console.log `numberOfFoods` to make sure your code worked!
-let numberOfFoods = foodArray.length;
+let numberOfFoods = favoriteFoods.length;
 console.log('number of foods: ',numberOfFoods);
 
 
@@ -76,7 +76,7 @@ console.log('Added an animal to end,', animalArray);
 //      array. (How can you be 100% certain this worked? 🤔)
 let dessert = 'carrot cake';
 favoriteFoods.push(dessert);
-console.log('added variable: desert to end of foodArray:',foodArray);
+console.log('added variable: dessert to end of foodArray:',favoriteFoods);
 
 
 // Example: Add to the beginning of an array using the Array.unshift method.
@@ -87,6 +87,9 @@ console.log(`Added an animal to beginning: ${animalArray}`);
 // 4.b. TODO: Create a variable `entree` and assign it a string value of
 //      an entree that you enjoy.
 //      Add the `entree` to the beginning of your `favoriteFoods` array.
+let entree = "chicken breast";
+favoriteFoods.unshift(entree);
+console.log('favorite foods with entree added to front:',favoriteFoods);
 
 
 // Example: Remove the last animal by using the Array.pop method.
@@ -103,6 +106,9 @@ let colors = ['orange', 'yellow', 'green', 'teal'];
 //      Don't forget! Use console.log to verify that the `colors`
 //      array only contains three items now, AND to verify that `lastColor`
 //      contains the value "teal".)
+let lastColor = colors.pop();
+console.log('Removed the last color from color array:',lastColor);
+console.log('color array is now: ',colors);
 
 
 // Example: Remove the first animal using the Array.shift method.
@@ -113,6 +119,9 @@ console.log('The animals are now', animalArray);
 // 4.d. TODO: Remove the first value from the `colors` array and store it
 //      inside a new variable called `firstColor`.
 //      To verify that your code worked, console.log `firstColor`!  
+let firstColor = colors.shift();
+console.log('Removed the first color from color array:',firstColor);
+console.log('color array is now: ',colors);
 
 
 
