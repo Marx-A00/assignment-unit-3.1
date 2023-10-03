@@ -11,6 +11,9 @@ console.log('Animals are: ', animalArray);
 //    Be sure to console.log your array of foods to the console with
 //    a message, similar to the example above.
 
+let foodArray = ['tacos','pop-tarts','cinnamon roll','protein shake'];
+console.log('favorite foods:', foodArray);
+
 
 // Array.length: A property that tells you how many items are in a given array.
 console.log('--- 2. Length of an array ---');
@@ -22,6 +25,8 @@ console.log('Number of animals:', numberOfAnimals);
 // 2. TODO: Create a variable `numberOfFoods` and use the .length property
 //    to assign it the number value of how many items are inside `favoriteFoods`.
 //    Don't forget to console.log `numberOfFoods` to make sure your code worked!
+let numberOfFoods = foodArray.length;
+console.log('number of foods: ',numberOfFoods);
 
 
 // Accessing array items
@@ -35,6 +40,8 @@ console.log('First animal is', firstAnimal);
 //      of the second item from the `animalArray`.
 //      Be sure to console.log this new variable to make sure your code
 //      worked as expected.
+let secondAnimal = animalArray[1];
+console.log('second animal is', secondAnimal);
 
 
 // 3.b. TODO: Create a variable `lastAnimal` and assign it the value of
