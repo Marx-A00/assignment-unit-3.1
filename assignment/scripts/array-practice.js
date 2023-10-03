@@ -49,9 +49,16 @@ console.log('second animal is', secondAnimal);
 //      You'll need to console.log `animalArray` and `lastAnimal` to make
 //      sure that your code does what you want. (Never trust your code until
 //      you have proof that it works!)
+let lastAnimal = animalArray[3];
+console.log('Array of Animals are: ', animalArray);
+
+console.log('the last animal in animal Array is:', lastAnimal);
 
 // 3.c. (STRETCH) TODO: Refactor 3.b to use the `animalArray` variable's .length 
 //       property, rather than the exact (hardcoded) index number of the last item.
+console.log(animalArray.length);
+let lastAnimalLength = animalArray[animalArray.length-1]; // use -1 since index starts at 0.
+console.log('the last animal in animal array using array.length is:', lastAnimalLength);
 
 
 
@@ -67,6 +74,9 @@ console.log('Added an animal to end,', animalArray);
 //      a dessert that you love.
 //      Similar to above, add the `dessert` to the end of your `favoriteFoods`
 //      array. (How can you be 100% certain this worked? 🤔)
+let dessert = 'carrot cake';
+favoriteFoods.push(dessert);
+console.log('added variable: desert to end of foodArray:',foodArray);
 
 
 // Example: Add to the beginning of an array using the Array.unshift method.
